@@ -4377,11 +4377,13 @@ body .search-modal .close:hover {
 .rs-team.style1 .team-item .team-inner-wrap {
   position: relative;
   overflow: hidden;
+  transform: translateX(-50%);
 }
 
 .rs-team.style1 .team-item .team-inner-wrap .images-wrap {
   position: relative;
   margin: 0 3px 0 3px;
+  transform: translateX(-50%);
 }
 .rs-team.style1 .team-item .team-inner-wrap .images-wrap .team-content {
   background-image: linear-gradient(180deg, #030e8f 0%, #2b39de 87 100%);
